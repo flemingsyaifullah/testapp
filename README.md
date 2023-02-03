@@ -20,7 +20,7 @@ Please find the source code at github link :
 
 git clone https://github.com/flemingsyaifullah/testapp.git
 
-Please upload your completed code by creating New Branch and inform us your branch to review
-eg branch_test_<your name>
+Please upload your completed code by creating <b>New Branch<b> and inform us your branch to review
+eg branch_your name
 
 Thank you
