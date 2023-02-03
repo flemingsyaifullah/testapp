@@ -15,7 +15,7 @@ which is currently still implemented at controller (HomeController). There is no
 3. Please create new class (CarExpiration) inherited from Car class then add 2 fields : PlateNumberExpiredDate (datetime) and IsTheCarCanBeSold(bool).
 Please note we can not update/modify directly Car & CarManufacturer classes because they are root class.
 
-4. Please use the new class (CarExpiration) and give <b>new implementation</b> to the abstract method GetCarListing with below new logic :
+4. Please use the new class (CarExpiration) and give <b>new implementation</b> to the abstract method with below new logic :
 - display the same fields as the existing UI table
 - field PlateNumberExpiredDate also need to be displayed at the UI table 
 - field IsTheCarCanBeSold also need to be displayed at the UI table with below condition
