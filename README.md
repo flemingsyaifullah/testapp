@@ -9,8 +9,8 @@ The dealer have some new requirements to be applied at this app to accomodate so
 1. This app still have no interface implementation, please create <b>interface ICarListingService</b> for this app with <b>abstract method GetCarListing</b>
 
 2. Please give implementation to the abstract method. 
-The implementation is to migrate existing method CarListing (public ActionResult CarListing()) 
-which is currently still implemented at controller (HomeController)
+The implementation is just to migrate existing method CarListing (public ActionResult CarListing()) 
+which is currently still implemented at controller (HomeController). There is no logic update
 
 3. Please create new class (CarExpiration) inherited from Car class then add 2 fields : PlateNumberExpiredDate (datetime) and IsTheCarCanBeSold(bool).
 Please note we can not update/modify directly Car & CarManufacturer classes because they are root class.
