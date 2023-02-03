@@ -14,7 +14,7 @@ Please note we can not update/modify directly Car & CarManufacturer classes beca
 
 4. Please use the new class (CarExpiration) and implement the interface abstract method GetCarListing with below logic :
 - the same query logic as existing CarListing method
-- add filter ONLY PlateNumberExpiredDate < 5 tahun should be displayed.
+- add filter ONLY PlateNumberExpiredDate < 5 years should be displayed.
 
 You can modify/update existing class CarListingView to display the new entity
 
