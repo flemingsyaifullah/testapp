@@ -1,5 +1,9 @@
 Study Case :
 
+<B>Given a simple app to display second cars to be sold by a second car dealer</b>
+
+We have some new requirements to be applied at this app to accomodate some business needs and regulation as below :
+
 1. Please create interface for above project with abstract method : GetCarListing 
 
 2. Please implement the interface for existing method CarListing (public ActionResult CarListing()) which is currently 
