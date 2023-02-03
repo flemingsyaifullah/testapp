@@ -6,22 +6,23 @@ Study Case :
 
 The dealer have some new requirements to be applied at this app to accomodate some business needs and regulation as below :
 
-1. This app still have no interface implementation, please implement interface ICarListingService for this app with abstract method : GetCarListing 
+1. This app still have no interface implementation, please create interface ICarListingService for this app with <b>abstract method : GetCarListing</b>
 
-2. Please implement the interface for existing method CarListing (public ActionResult CarListing()) which is currently 
-still implemented at controller (HomeController)
+2. Please give implementation to the abstract method GetCarListing. 
+The implementation is to migrate existing method CarListing (public ActionResult CarListing()) 
+which is currently still implemented at controller (HomeController)
 
 3. Please create new class (CarExpiration) inherited from Car class then add 2 fields : PlateNumberExpiredDate (datetime) and IsTheCarCanBeSold(bool).
 Please note we can not update/modify directly Car & CarManufacturer classes because they are root class.
 
-4. Please use the new class (CarExpiration) and give <b>new logic implementation</b> of the interface abstract method GetCarListing with below new logic :
+4. Please use the new class (CarExpiration) and give <b>new implementation</b> to the abstract method GetCarListing with below new logic :
 - display the same fields as the existing UI table
 - field PlateNumberExpiredDate also need to be displayed at the UI table 
 - field IsTheCarCanBeSold also need to be displayed at the UI table with below condition
 - if PlateNumberExpiredDate <= 5 years of the date now then the field IsTheCarCanBeSold should be filled with "Bisa dijual"
 - if PlateNumberExpiredDate > 5 years of the date now then the field IsTheCarCanBeSold should be filled with "Tidak bisa dijual"
 
-Please note <b>Do Not update/modify</b> the existing interface implementation (test case number 2)
+Please note <b>Do Not update/modify</b> the existing method implementation (test case number 2)
 
 5. Rewritten this test solutions in .NET 6 or 7 is a bug plus since this test app still using .NET Framework 4.8 (optional) 
 
