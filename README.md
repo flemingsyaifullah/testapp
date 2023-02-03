@@ -38,4 +38,4 @@ Please inform us once you have completed your test and uploaded your codes to yo
 Thank you
 
 Note : 
-Technology Stack of this app : .NET C#, Entity Framework, MVC
+Technology Stack at this app : .NET C#, Entity Framework, MVC
