@@ -6,21 +6,24 @@ Study Case :
 
 The dealer have some new requirements to be applied at this app to accomodate some business needs and regulation as below :
 
-1. Please create interface for above project with abstract method : GetCarListing 
+1. This app still have no interface implementation, please implement interface ICarListingService for this app with abstract method : GetCarListing 
 
 2. Please implement the interface for existing method CarListing (public ActionResult CarListing()) which is currently 
-still implemented at controller (HomeController) then from the controller call the interface
+still implemented at controller (HomeController)
 
-3. Please create new class (CarExpiration) inherited from Car and add an entity : PlateNumberExpiredDate (datetime).
+3. Please create new class (CarExpiration) inherited from Car class then add 2 fields : PlateNumberExpiredDate (datetime) and IsTheCarCanBeSold(bool).
 Please note we can not update/modify directly Car & CarManufacturer classes because they are root class.
 
-4. Please use the new class (CarExpiration) and implement the interface abstract method GetCarListing with below logic :
-- the same query logic as existing CarListing method
-- add filter ONLY PlateNumberExpiredDate < 5 years should be displayed.
+4. Please use the new class (CarExpiration) and give <b>new logic implementation</b> of the interface abstract method GetCarListing with below new logic :
+- display the same fields as the existing UI table
+- field PlateNumberExpiredDate also need to be displayed at the UI table 
+- field IsTheCarCanBeSold also need to be displayed at the UI table with below condition
+- if PlateNumberExpiredDate <= 5 years of the date now then the field IsTheCarCanBeSold should be filled with "Bisa dijual"
+- if PlateNumberExpiredDate > 5 years of the date now then the field IsTheCarCanBeSold should be filled with "Tidak bisa dijual"
 
-You can modify/update existing class CarListingView to display the new entity
+Please note <b>Do Not update/modify</b> the existing interface implementation (test case number 2)
 
-5. Rewritten the solutions in .NET 6 or 7 is a bug plus since this test app still using .NET Framework 4.8 (optional) 
+5. Rewritten this test solutions in .NET 6 or 7 is a bug plus since this test app still using .NET Framework 4.8 (optional) 
 
 Please find the source code at github link :
 
