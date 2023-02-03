@@ -4,7 +4,7 @@ Study Case :
 
 ![image](https://user-images.githubusercontent.com/44523673/216550250-27a4e44c-70be-4cfc-ae72-b34f823aa295.png)
 
-The dealer have some new requirements to be applied at this app to accomodate some business needs and regulation as below :
+The dealer has some new requirements to be applied at this app to accomodate some business needs and regulation as below :
 
 1. This app still have no interface implementation, please create <b>interface ICarListingService</b> for this app with <b>abstract method GetCarListing</b>
 
@@ -24,7 +24,7 @@ Please note we can not update/modify directly Car & CarManufacturer classes beca
 
 Please note <b>Do Not update/modify</b> the existing method implementation (test case number 2)
 
-5. Rewritten this test solutions in .NET 6 or 7 is a bug plus since this test app still using .NET Framework 4.8 (optional) 
+5. Rewritten this test solutions in .NET 6 or 7 is a big plus since this test app still using .NET Framework 4.8 (optional) 
 
 Please find the source code at github link :
 
