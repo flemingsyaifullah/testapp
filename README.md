@@ -1,8 +1,8 @@
 Study Case :
 
-<B>Given a simple app to display second cars to be sold by a second car dealer</b>
+<B>Given a simple app to display second car on sale at a Second Car Dealer Website</b>
 
-We have some new requirements to be applied at this app to accomodate some business needs and regulation as below :
+The dealer have some new requirements to be applied at this app to accomodate some business needs and regulation as below :
 
 1. Please create interface for above project with abstract method : GetCarListing 
 
