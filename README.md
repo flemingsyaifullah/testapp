@@ -41,11 +41,9 @@ And <b>Not modify</b> Car and CarManufacturer classes because they are root clas
 
 You should only use Entity Framework for query
 
-Please update data at db_script.sql as necessary
+Once completed, please update data at db_script.sql as necessary for our testing.
+And push your changes code by creating new branch eg branch_your name
 
-4. Rewrite this test solution in .NET 6 or 7 is a big plus since this test app still using .NET Framework 4.8 (optional) 
-
-Once completed, push your changes code by creating new branch
-eg branch_your name
+Note : Rewrite this test solution in .NET 6 or 7 is a big plus since this test app still using .NET Framework 4.8 (optional) 
 
 Thank you
