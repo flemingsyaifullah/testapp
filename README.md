@@ -28,8 +28,9 @@ To apply the requirement, please give new implementation to the abstract method 
 - Add column Status at the UI with below condition</br>
   For Domestic Car
   - if plate number expired date <= 5 years of the date now then Status should be displayed "Bisa dijual"
-  - if plate number expired date > 5 years of the date now then Status should be displayed "Tidak bisa dijual"</br>
- For CBU Car
+  - if plate number expired date > 5 years of the date now then Status should be displayed "Tidak bisa dijual" </br>
+  
+  For CBU Car
   - if plate number expired date <= 3 years of the date now then Status should be displayed "Bisa dijual"
   - if plate number expired date > 3 years of the date now then Status should be displayed "Tidak bisa dijual"
   
