@@ -1,4 +1,4 @@
-<B>Given a simple existing app to display second car on sale at a Second Car Dealer Website as below capture</b>
+Given a simple existing app to display second car on sale at a Second Car Dealer Website as below capture
 
 ![image](https://user-images.githubusercontent.com/44523673/216550250-27a4e44c-70be-4cfc-ae72-b34f823aa295.png)
 
@@ -27,14 +27,14 @@ whereas currently still implemented at controller (HomeController). There is no 
   - if plate number expired date <= 5 years of the date now then Status should be displayed "Bisa dijual"
   - if plate number expired date > 5 years of the date now then Status should be displayed "Tidak bisa dijual"
 
-Please note <b>Do Not modify</b> the existing method implementation (test case number 2)</br> 
-and <b>Do Not modify</b> Car and CarManufacturer classes because they are root classes.
+Please note <b>Do Not modify</b> the existing method implementation (test case number 2).</br> 
+And <b>Do Not modify</b> Car and CarManufacturer classes because they are root classes.
 
 Please also update db_script.sql with data of plate number expired date (no need create new record)
 
 4. Rewrite this test solution in .NET 6 or 7 is a big plus since this test app still using .NET Framework 4.8 (optional) 
 
-Please push your changes code by creating <b>New Branch</b>
+Please push your changes code by creating new branch
 eg branch_your name
 
 Thank you
