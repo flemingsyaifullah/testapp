@@ -33,6 +33,8 @@ To apply the requirement, please give new implementation to the abstract method 
   For CBU car type
   - if plate number expired date <= 3 years of the date now then Status should be displayed "Bisa dijual"
   - if plate number expired date > 3 years of the date now then Status should be displayed "Tidak bisa dijual"
+- Add column Import Date for CBU car type
+- Add column Assembly Date for Domestic car type
   
 Please note <b>Do Not modify</b> the existing method implementation (test case number 2).</br> 
 And <b>Do Not modify</b> Car and CarManufacturer classes because they are root classes. You can create inheritance class from them
