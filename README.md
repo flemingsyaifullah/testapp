@@ -1,6 +1,6 @@
 Study Case :
 
-<B>Given a simple app to display second car on sale at a Second Car Dealer Website</b>
+<B>Given a simple app to display second car on sale at a Second Car Dealer Website as below capture</b>
 
 ![image](https://user-images.githubusercontent.com/44523673/216550250-27a4e44c-70be-4cfc-ae72-b34f823aa295.png)
 
@@ -30,7 +30,7 @@ Please find the source code at github link :
 
 git clone https://github.com/flemingsyaifullah/testapp.git
 
-Please upload your completed code by creating <b>New Branch</b>
+Please upload your changes code based on the requirements by creating <b>New Branch</b>
 eg branch_your name
 
 Please inform us once you have completed your test and uploaded your codes to your branch
