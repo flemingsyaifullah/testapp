@@ -2,7 +2,7 @@ Given a simple existing app to display second car on sale at a Second Car Dealer
 
 ![image](https://user-images.githubusercontent.com/44523673/216550250-27a4e44c-70be-4cfc-ae72-b34f823aa295.png)
 
-This app using technology stack : .NET C#, Entity Framework, MVC, Visual Studio 2019/2022
+This app using technology stack : C#, Entity Framework
 
 How to run this app
 - Clone this repository https://github.com/flemingsyaifullah/testapp.git
