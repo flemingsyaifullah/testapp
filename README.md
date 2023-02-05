@@ -36,4 +36,9 @@ eg branch_your name
 Thank you
 
 Note : 
-Technology Stack at this app : .NET C#, Entity Framework, MVC
+- this app using technology stack at this app : .NET C#, Entity Framework, MVC
+- 
+- how to run this app :
+- open the solution using visual studio 2019/2022 and run
+- the database should be auto created with 2 empty tables (Car & CarManufacturer)
+- Please use the db_script.sql to fill the tables with the prepared data
