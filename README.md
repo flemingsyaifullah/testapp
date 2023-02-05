@@ -8,7 +8,7 @@ How to run this app
 - Clone this repository https://github.com/flemingsyaifullah/testapp.git
 - open the solution using visual studio 2019/2022 and run
 - the database should be auto created with 2 empty tables (Car & CarManufacturer)
-- Please use the db_script.sql to fill the tables with the prepared data as the above capture
+- Please use the db_script.sql to fill the tables with the prepared data as the above UI table
 
 Your tasks :
 
