@@ -21,23 +21,27 @@ The dealer has some new requirements to be applied at this app to accomodate som
 The implementation is just to migrate existing method CarListing (public ActionResult CarListing()) 
 whereas currently still implemented at controller (HomeController). There is no logic changes
 
-3. For CBU car need to display plate number expiration date. 
+3. Need to display plate number expiration date information.</br>
 To apply the requirement, please give new implementation to the abstract method with below new logic
 - display the same columns as the existing UI
 - Add column Plate Number Expired Date at the UI
 - Add column Status at the UI with below condition
+  For Domestic Car
   - if plate number expired date <= 5 years of the date now then Status should be displayed "Bisa dijual"
   - if plate number expired date > 5 years of the date now then Status should be displayed "Tidak bisa dijual"
-
+  For CBU Car
+  - if plate number expired date <= 3 years of the date now then Status should be displayed "Bisa dijual"
+  - if plate number expired date > 3 years of the date now then Status should be displayed "Tidak bisa dijual"
+  
 Please note <b>Do Not modify</b> the existing method implementation (test case number 2).</br> 
 And <b>Do Not modify</b> Car and CarManufacturer classes because they are root classes. 
 
-You should create inheritance class (CBUCar) and add new field member PlateNumberExpiredDate (DateTime).</br>
+You should create 2 inheritance classes (CBUCar and DomesticCar) and add new field member PlateNumberExpiredDate (DateTime).</br>
 You should update DBContext as necessary.
 
 To apply database change you should delete existing database (if exist) and re-create database
 
-Please also update db_script.sql to insert a new record for CBU car including PlateNumberExpiredDate information
+Please update db_script.sql as necessary
 
 4. Rewrite this test solution in .NET 6 or 7 is a big plus since this test app still using .NET Framework 4.8 (optional) 
 
