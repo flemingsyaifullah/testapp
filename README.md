@@ -30,6 +30,8 @@ whereas currently still implemented at controller (HomeController). There is no 
 Please note <b>Do Not modify</b> the existing method implementation (test case number 2).</br> 
 And <b>Do Not modify</b> Car and CarManufacturer classes because they are root classes.
 
+You should update DBContext as necessary
+
 Please also update db_script.sql with data of plate number expired date (no need create new record)
 
 4. Rewrite this test solution in .NET 6 or 7 is a big plus since this test app still using .NET Framework 4.8 (optional) 
