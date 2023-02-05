@@ -36,7 +36,7 @@ eg branch_your name
 Thank you
 
 Note : 
-- this app using technology stack at this app : .NET C#, Entity Framework, MVC
+- this app using technology stack at this app : .NET C#, Entity Framework, MVC, Visual Studio 2019/2022
 
 - how to run this app :
 - open the solution using visual studio 2019/2022 and run
