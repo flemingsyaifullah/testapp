@@ -6,7 +6,8 @@ This app using technology stack : C#, Entity Framework
 
 How to run this app
 - Clone this repository https://github.com/flemingsyaifullah/testapp.git
-- open the solution using visual studio 2019/2022 and run
+- open the solution using visual studio 2019/2022
+- run the app and click Car Listing menu
 - the database should be auto created with 2 empty tables (Car & CarManufacturer)
 - Please get existing data by execute db_script.sql
 
@@ -28,9 +29,12 @@ whereas currently still implemented at controller (HomeController). There is no 
   - if plate number expired date > 5 years of the date now then Status should be displayed "Tidak bisa dijual"
 
 Please note <b>Do Not modify</b> the existing method implementation (test case number 2).</br> 
-And <b>Do Not modify</b> Car and CarManufacturer classes because they are root classes.
+And <b>Do Not modify</b> Car and CarManufacturer classes because they are root classes. 
 
-You should update DBContext as necessary
+You should create inheritance class and only need to add new field member PlateNumberExpiredDate (DateTime).
+You should update DBContext as necessary.
+
+Delete existing database if exist and re-create the database to apply database change
 
 Please also update db_script.sql with data of plate number expired date (no need create new record)
 
