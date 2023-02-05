@@ -24,11 +24,11 @@ whereas currently still implemented at controller (HomeController). There is no 
 Please note we can not update/modify directly Car & CarManufacturer classes because they are root classes.
 
 4. Please use the new class (CarExpiration) and give <b>new implementation</b> to the abstract method with below new logic
-- display the same fields as the existing UI table
-- field PlateNumberExpiredDate also need to be displayed at the UI
-- field IsTheCarCanBeSold also need to be displayed at the UI with below condition
-  - if PlateNumberExpiredDate <= 5 years of the date now then the field IsTheCarCanBeSold should be filled with "Bisa dijual"
-  - if PlateNumberExpiredDate > 5 years of the date now then the field IsTheCarCanBeSold should be filled with "Tidak bisa dijual"
+- display the same columns as the existing UI
+- Add column Plate Number Expired Date at the UI
+- Add column Status at the UI with below condition
+  - if PlateNumberExpiredDate <= 5 years of the date now then Status should be displayed "Bisa dijual"
+  - if PlateNumberExpiredDate > 5 years of the date now then Status should be displayed "Tidak bisa dijual"
 
 Please note <b>Do Not update/modify</b> the existing method implementation (test case number 2)
 
