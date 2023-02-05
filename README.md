@@ -34,7 +34,7 @@ Please note <b>Do Not update/modify</b> the existing method implementation (test
 
 5. Rewrite this test solution in .NET 6 or 7 is a big plus since this test app still using .NET Framework 4.8 (optional) 
 
-Please upload your changes code based on the requirements by creating <b>New Branch</b>
+Please push your changes code based on the requirements by creating <b>New Branch</b>
 eg branch_your name
 
 Thank you
