@@ -32,7 +32,7 @@ To apply the requirement, please give new implementation to the abstract method 
 Please note <b>Do Not modify</b> the existing method implementation (test case number 2).</br> 
 And <b>Do Not modify</b> Car and CarManufacturer classes because they are root classes. 
 
-You should create inheritance class (let say CBUCar) and only need to add new field member PlateNumberExpiredDate (DateTime).</br>
+You should create inheritance class (let say CBUCar) and add new field member PlateNumberExpiredDate (DateTime).</br>
 You should update DBContext as necessary.
 
 To apply database change you should delete existing database (if exist) and re-create database
