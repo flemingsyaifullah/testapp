@@ -25,7 +25,7 @@ whereas currently still implemented at controller (HomeController). There is no 
 To apply the requirement, please give new implementation to the abstract method with below new logic
 - display the same columns as the existing UI
 - Add column Plate Number Expired Date at the UI
-- Add column Status at the UI with below condition
+- Add column Status at the UI with below condition</br>
   For Domestic Car
   - if plate number expired date <= 5 years of the date now then Status should be displayed "Bisa dijual"
   - if plate number expired date > 5 years of the date now then Status should be displayed "Tidak bisa dijual"</br>
