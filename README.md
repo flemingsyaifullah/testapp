@@ -13,7 +13,7 @@ The implementation is just to migrate existing method CarListing (public ActionR
 whereas currently still implemented at controller (HomeController). There is no logic changes
 
 3. Please create new class (CarExpiration) inherited from Car class then add 2 fields : PlateNumberExpiredDate (datetime) and IsTheCarCanBeSold(bool).
-Please note we can not update/modify directly Car & CarManufacturer classes because they are root class.
+Please note we can not update/modify directly Car & CarManufacturer classes because they are root classes.
 
 4. Please use the new class (CarExpiration) and give <b>new implementation</b> to the abstract method with below new logic :
 - display the same fields as the existing UI table
