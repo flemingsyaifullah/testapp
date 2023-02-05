@@ -14,7 +14,7 @@ Your tasks :
 
 The dealer has some new requirements to be applied at this app to accomodate some business needs and regulation as below
 
-1. This app still have no interface implementation, please create interface ICarListingService for this app with bstract method GetCarListing
+1. This app still have no interface implementation, please create interface ICarListingService for this app with abstract method GetCarListing
 
 2. Please give implementation to the abstract method. 
 The implementation is just to migrate existing method CarListing (public ActionResult CarListing()) 
