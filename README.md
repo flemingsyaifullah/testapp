@@ -36,16 +36,16 @@ To apply the requirement, please give new implementation to the abstract method 
 - Add column Import Date for CBU car type
 - Add column Assembly Date (tanggal perakitan) for domestic car type
   
-Please note <b>Do Not modify</b> the existing method implementation (test case number 2).</br> 
-And <b>Do Not modify</b> Car and CarManufacturer classes because they are root classes. You can create inheritance class from them.</br>
+You should <b>Not modify</b> the existing method implementation (test case number 2).</br> 
+And <b>Not modify</b> Car and CarManufacturer classes because they are root classes. But you can create inheritance class from them.</br>
 
-Please only use Entity Framework for query
+You should only use Entity Framework for query
 
 Please update data at db_script.sql as necessary
 
 4. Rewrite this test solution in .NET 6 or 7 is a big plus since this test app still using .NET Framework 4.8 (optional) 
 
-Please push your changes code by creating new branch
+Once completed, push your changes code by creating new branch
 eg branch_your name
 
 Thank you
