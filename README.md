@@ -17,7 +17,7 @@ The dealer has some new requirements to be applied at this app to accomodate som
 
 1. This app still have no interface implementation, please create interface ICarListingService for this app with abstract method GetCarListing
 
-2. Please give implementation for the abstract method. 
+2. Please give implementation to the abstract method. 
 The implementation is just to migrate existing method CarListing (public ActionResult CarListing()) 
 whereas currently still implemented at controller (HomeController). There is no logic changes
 
