@@ -11,7 +11,7 @@ How to run this app
 - the database should be auto created with 2 empty tables (Car & CarManufacturer)
 - Get existing data by execute db_script.sql
 
-Your tasks :
+Your test cases :
 
 The dealer has some new requirements to be applied at this app to accomodate some business needs and regulation as below
 
