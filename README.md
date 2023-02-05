@@ -5,6 +5,7 @@
 This app using technology stack : .NET C#, Entity Framework, MVC, Visual Studio 2019/2022
 
 How to run this app
+- Clone this repository https://github.com/flemingsyaifullah/testapp.git
 - open the solution using visual studio 2019/2022 and run
 - the database should be auto created with 2 empty tables (Car & CarManufacturer)
 - Please use the db_script.sql to fill the tables with the prepared data as the above capture
@@ -32,10 +33,6 @@ Please note we can not update/modify directly Car & CarManufacturer classes beca
 Please note <b>Do Not update/modify</b> the existing method implementation (test case number 2)
 
 5. Rewrite this test solution in .NET 6 or 7 is a big plus since this test app still using .NET Framework 4.8 (optional) 
-
-Please find the source code at github link
-
-git clone https://github.com/flemingsyaifullah/testapp.git
 
 Please upload your changes code based on the requirements by creating <b>New Branch</b>
 eg branch_your name
