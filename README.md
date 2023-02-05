@@ -35,12 +35,7 @@ To apply the requirement, please give new implementation to the abstract method 
   - if plate number expired date > 3 years of the date now then Status should be displayed "Tidak bisa dijual"
   
 Please note <b>Do Not modify</b> the existing method implementation (test case number 2).</br> 
-And <b>Do Not modify</b> Car and CarManufacturer classes because they are root classes. 
-
-You should create 2 inheritance classes (CBUCar and DomesticCar) and add new field member PlateNumberExpiredDate (DateTime).</br>
-You should update DBContext as necessary.
-
-To apply database change you should delete existing database (if exist) and re-create database
+And <b>Do Not modify</b> Car and CarManufacturer classes because they are root classes. But you can create inheritance class from them
 
 Please update data at db_script.sql as necessary
 
