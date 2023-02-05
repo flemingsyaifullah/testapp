@@ -24,7 +24,7 @@ Please note we can not update/modify directly Car & CarManufacturer classes beca
 
 Please note <b>Do Not update/modify</b> the existing method implementation (test case number 2)
 
-5. Rewritten this test solution in .NET 6 or 7 is a big plus since this test app still using .NET Framework 4.8 (optional) 
+5. Rewrite this test solution in .NET 6 or 7 is a big plus since this test app still using .NET Framework 4.8 (optional) 
 
 Please find the source code at github link :
 
