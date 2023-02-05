@@ -32,7 +32,7 @@ and <b>Do Not modify</b> Car and CarManufacturer classes because they are root c
 
 Please also update db_script.sql with data of plate number expired date (no need create new record)
 
-5. Rewrite this test solution in .NET 6 or 7 is a big plus since this test app still using .NET Framework 4.8 (optional) 
+4. Rewrite this test solution in .NET 6 or 7 is a big plus since this test app still using .NET Framework 4.8 (optional) 
 
 Please push your changes code by creating <b>New Branch</b>
 eg branch_your name
