@@ -27,7 +27,7 @@ whereas currently still implemented at controller (HomeController). There is no 
   - if plate number expired date <= 5 years of the date now then Status should be displayed "Bisa dijual"
   - if plate number expired date > 5 years of the date now then Status should be displayed "Tidak bisa dijual"
 
-Please note <b>Do Not modify</b> the existing method implementation (test case number 2) 
+Please note <b>Do Not modify</b> the existing method implementation (test case number 2)</br> 
 and <b>Do Not modify</b> Car and CarManufacturer classes because they are root classes.
 
 Please also update db_script.sql with data of plate number expired date (no need create new record)
