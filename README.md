@@ -37,7 +37,7 @@ Thank you
 
 Note : 
 - this app using technology stack at this app : .NET C#, Entity Framework, MVC
-- 
+
 - how to run this app :
 - open the solution using visual studio 2019/2022 and run
 - the database should be auto created with 2 empty tables (Car & CarManufacturer)
