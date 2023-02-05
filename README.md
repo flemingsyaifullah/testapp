@@ -14,13 +14,13 @@ Your tasks :
 
 The dealer has some new requirements to be applied at this app to accomodate some business needs and regulation as below
 
-1. This app still have no interface implementation, please create <b>interface ICarListingService</b> for this app with <b>abstract method GetCarListing</b>
+1. This app still have no interface implementation, please create interface ICarListingService for this app with bstract method GetCarListing
 
 2. Please give implementation to the abstract method. 
 The implementation is just to migrate existing method CarListing (public ActionResult CarListing()) 
 whereas currently still implemented at controller (HomeController). There is no logic changes
 
-3. Please give <b>new implementation</b> to the abstract method with below new logic
+3. Please give new implementation to the abstract method with below new logic
 - display the same columns as the existing UI
 - Add column Plate Number Expired Date at the UI
 - Add column Status at the UI with below condition
