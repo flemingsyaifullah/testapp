@@ -17,11 +17,12 @@ The dealer has some new requirements to be applied at this app to accomodate som
 
 1. This app still have no interface implementation, please create interface ICarListingService for this app with abstract method GetCarListing
 
-2. Please give implementation to the abstract method. 
+2. Please give implementation for the abstract method. 
 The implementation is just to migrate existing method CarListing (public ActionResult CarListing()) 
 whereas currently still implemented at controller (HomeController). There is no logic changes
 
-3. Please give new implementation to the abstract method with below new logic
+3. For CBU car need to display plate number expiration date. 
+To apply the requirement, please give new implementation to the abstract method with below new logic
 - display the same columns as the existing UI
 - Add column Plate Number Expired Date at the UI
 - Add column Status at the UI with below condition
