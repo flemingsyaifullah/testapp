@@ -8,7 +8,7 @@ How to run this app
 - Clone this repository https://github.com/flemingsyaifullah/testapp.git
 - open the solution using visual studio 2019/2022 and run
 - the database should be auto created with 2 empty tables (Car & CarManufacturer)
-- Please use the db_script.sql to fill the tables with the prepared data as the above UI table
+- Please use the db_script.sql to fill the tables with the prepared data
 
 Your tasks :
 
@@ -25,8 +25,8 @@ Please note we can not update/modify directly Car & CarManufacturer classes beca
 
 4. Please use the new class (CarExpiration) and give <b>new implementation</b> to the abstract method with below new logic
 - display the same fields as the existing UI table
-- field PlateNumberExpiredDate also need to be displayed at the UI table 
-- field IsTheCarCanBeSold also need to be displayed at the UI table with below condition
+- field PlateNumberExpiredDate also need to be displayed at the UI
+- field IsTheCarCanBeSold also need to be displayed at the UI with below condition
   - if PlateNumberExpiredDate <= 5 years of the date now then the field IsTheCarCanBeSold should be filled with "Bisa dijual"
   - if PlateNumberExpiredDate > 5 years of the date now then the field IsTheCarCanBeSold should be filled with "Tidak bisa dijual"
 
