@@ -1,6 +1,6 @@
 Study Case :
 
-<B>Given a simple app to display second car on sale at a Second Car Dealer Website as below capture</b>
+<B>Given a simple existing app to display second car on sale at a Second Car Dealer Website as below capture</b>
 
 ![image](https://user-images.githubusercontent.com/44523673/216550250-27a4e44c-70be-4cfc-ae72-b34f823aa295.png)
 
