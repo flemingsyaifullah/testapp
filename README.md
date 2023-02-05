@@ -33,8 +33,6 @@ git clone https://github.com/flemingsyaifullah/testapp.git
 Please upload your changes code based on the requirements by creating <b>New Branch</b>
 eg branch_your name
 
-Please inform us once you have completed your test and uploaded your codes to your branch
-
 Thank you
 
 Note : 
