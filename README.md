@@ -37,7 +37,7 @@ You should update DBContext as necessary.
 
 To apply database change you should delete existing database (if exist) and re-create database
 
-Please also update db_script.sql with data of PlateNumberExpiredDate (no need create new record)
+Please also update db_script.sql to insert a new record for CBU Car including PlateNumberExpiredDate information
 
 4. Rewrite this test solution in .NET 6 or 7 is a big plus since this test app still using .NET Framework 4.8 (optional) 
 
