@@ -9,7 +9,7 @@ How to run this app
 - open the solution using visual studio 2019/2022
 - run the app and click Car Listing menu
 - the database should be auto created with 2 empty tables (Car & CarManufacturer)
-- Please get existing data by execute db_script.sql
+- Get existing data by execute db_script.sql
 
 Your tasks :
 
@@ -34,9 +34,9 @@ And <b>Do Not modify</b> Car and CarManufacturer classes because they are root c
 You should create inheritance class and only need to add new field member PlateNumberExpiredDate (DateTime).
 You should update DBContext as necessary.
 
-Delete existing database if exist and re-create the database to apply database change
+To apply database change you should delete existing database (if exist) and re-create database
 
-Please also update db_script.sql with data of plate number expired date (no need create new record)
+Please also update db_script.sql with data of PlateNumberExpiredDate (no need create new record)
 
 4. Rewrite this test solution in .NET 6 or 7 is a big plus since this test app still using .NET Framework 4.8 (optional) 
 
