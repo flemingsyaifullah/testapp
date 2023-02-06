@@ -26,7 +26,7 @@ To apply the requirement, please give new implementation to the abstract method 
 - display the same columns as the existing UI
 - Add column Plate Number Expired Date at the UI
 - Add column Car Status at the UI with below condition</br>
-  For domestic car type
+  For local car type
   - if plate number expired date <= 5 years of the date now then Car Status should be displayed "Bisa dijual"
   - if plate number expired date > 5 years of the date now then Car Status should be displayed "Tidak bisa dijual" </br>
   
@@ -34,7 +34,7 @@ To apply the requirement, please give new implementation to the abstract method 
   - if plate number expired date <= 3 years of the date now then Car Status should be displayed "Bisa dijual"
   - if plate number expired date > 3 years of the date now then Car Status should be displayed "Tidak bisa dijual"
 - Add column Import Date for CBU car type
-- Add column Assembly Date (tanggal perakitan) for domestic car type
+- Add column Assembly Date (tanggal perakitan) for local car type
   
 You should <b>Not modify</b> the existing method implementation (test case number 2).</br> 
 And <b>Not modify</b> Car and CarManufacturer classes because they are root classes. But you can create inheritance class from them.</br>
