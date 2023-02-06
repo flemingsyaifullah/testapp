@@ -30,7 +30,7 @@ To apply the requirement, please give new implementation to the abstract method 
   - if plate number expired date <= 5 years of the date now then Car Status should be displayed "Bisa dijual"
   - if plate number expired date > 5 years of the date now then Car Status should be displayed "Tidak bisa dijual" </br>
   
-  For CBU (Import) car type
+  For CBU (import) car type
   - if plate number expired date <= 3 years of the date now then Car Status should be displayed "Bisa dijual"
   - if plate number expired date > 3 years of the date now then Car Status should be displayed "Tidak bisa dijual"
 - Add column Import Date for CBU car type
