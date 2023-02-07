@@ -36,7 +36,7 @@ To apply the requirement, please give new implementation to the abstract method 
 - Add column Import Date for CBU car type
 - Add column Assembly Date (tanggal perakitan) for local car type
   
-You should <b>Not modify</b> the existing method implementation (test case number 2).</br> 
+To implement test case no. 3 you should <b>Not modify</b> the existing method implementation (test case number 2)</br> 
 And <b>Not modify</b> Car and CarManufacturer classes because they are root classes. But you can create inheritance class from them.</br>
 
 You should only use Entity Framework for query
