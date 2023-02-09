@@ -39,7 +39,7 @@ To apply the requirement, please give new implementation to the abstract method 
 To implement test case no. 3 you should <b>Not modify</b> the existing method implementation (test case number 2)</br> 
 And <b>Not modify</b> Car and CarManufacturer classes because they are root classes. But you can create inheritance class from them.</br>
 
-You should only use Entity Framework for query
+You should only use Entity Framework for query. Or in case you are not familiar with Entity Framework you can rewrite the query using another ORM (eg. Dapper)
 
 Once completed, please update data at db_script.sql as necessary for our testing.
 And push your changes code by creating new branch eg branch_your name
