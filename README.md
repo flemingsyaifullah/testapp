@@ -11,9 +11,7 @@ How to run this app
 - the database should be auto created with 2 empty tables (Car & CarManufacturer)
 - Get existing data by execute db_script.sql
 
-Your test cases :
-
-The dealer has some new requirements to be applied at this app to accomodate some business needs and regulation as below
+<b>Your test cases :</b>
 
 1. This app still have no interface implementation, please create interface ICarListingService for this app with abstract method GetCarListing
 
@@ -21,10 +19,9 @@ The dealer has some new requirements to be applied at this app to accomodate som
 The implementation is just to migrate existing method CarListing (public ActionResult CarListing()) 
 whereas currently still implemented at controller (HomeController). There is no logic changes
 
-3. Need to display plate number expiration date and car status based on car type.</br>
-To apply the requirement, please give new implementation to the abstract method with below new logic :
-- Add column Plate Number Expired Date at the UI
-- Add column Car Status at the UI with below condition</br>
+3. The dealer plan to open a new showroom branch at ABC city and need to follow regulation of ABC city as below</br>
+- Need to add column Plate Number Expired Date at the UI
+- Need to add column Car Status at the UI with below condition</br>
   For local car type
   - if plate number expired date <= 5 years of the date now then Car Status should be displayed "Bisa dijual"
   - if plate number expired date > 5 years of the date now then Car Status should be displayed "Tidak bisa dijual" </br>
@@ -32,10 +29,12 @@ To apply the requirement, please give new implementation to the abstract method 
   For CBU (import) car type
   - if plate number expired date <= 3 years of the date now then Car Status should be displayed "Bisa dijual"
   - if plate number expired date > 3 years of the date now then Car Status should be displayed "Tidak bisa dijual"
-- Add column Import Date for CBU car type
-- Add column Assembly Date (tanggal perakitan) for local car type
+- Need to add column Import Date for CBU car type only
+- Need to add column Assembly Date (tanggal perakitan) for local car type only
+
+Please develop above logic by giving new implementation to the abstract method of the interface
   
-To implement test case no. 3 you should <b>Not modify</b> the existing method implementation (test case number 2)</br> 
+To implement test case no. 3 you should <b>Not modify</b> the existing method implementation (test case number 2) because it used by current city.</br> 
 And <b>Not modify</b> Car and CarManufacturer classes because they are root classes. But you can create inheritance class from them.</br>
 
 You should use Entity Framework for query.<br/>
