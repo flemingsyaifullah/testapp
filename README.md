@@ -19,7 +19,7 @@ How to run this app
 The implementation is just to migrate existing method CarListing (public ActionResult CarListing()) 
 whereas currently still implemented at controller (HomeController). There is no logic changes
 
-3. The dealer plan to open a new showroom branch at ABC city and need to follow regulation of ABC city as below</br>
+3. The dealer plan to open a new showroom branch at ABC city and need to follow regulation of ABC city as below :</br>
 - Need to add column Plate Number Expired Date at the UI
 - Need to add column Car Status at the UI with below condition</br>
   For local car type
