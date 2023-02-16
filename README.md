@@ -43,7 +43,7 @@ You should only use Entity Framework for query.<br/>
 Or in case you are not familiar with Entity Framework you can rewrite the query using another ORM (eg. Dapper) or Stored Procedure
 
 Please also update data at db_script.sql as necessary for our testing.<br/>
-Once completed, please give us your link (dropbox etc) to download the test result
+Once completed, please give us your link (Dropbox etc) to download the test result
 
 Note : Rewrite this test solution in .NET 6 or 7 is a big plus since this test app still using .NET Framework 4.8 (optional) 
 
