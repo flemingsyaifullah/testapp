@@ -13,10 +13,10 @@ How to run this app
 
 <b>Your test cases :</b>
 
-1. This app still have no interface implementation, please create interface ICarListingService for this app with abstract method GetCarListing
+1. This app still have no interface, please create interface ICarListingService for this app with abstract method GetCarListing
 
-2. Please give implementation to the abstract method. 
-The implementation is just to migrate existing method CarListing (public ActionResult CarListing()) 
+2. Please give implementation to the abstract method of the interface. 
+The implementation is just to migrate existing method <i>CarListing (public ActionResult CarListing())</i> 
 whereas currently still implemented at controller (HomeController). There is no logic changes
 
 3. The dealer plan to open a new showroom branch at ABC city and need to follow regulation of ABC city as below :</br>
