@@ -23,7 +23,6 @@ whereas currently still implemented at controller (HomeController). There is no 
 
 3. Need to display plate number expiration date and car status based on car type.</br>
 To apply the requirement, please give new implementation to the abstract method with below new logic :
-- display the same columns as the existing UI
 - Add column Plate Number Expired Date at the UI
 - Add column Car Status at the UI with below condition</br>
   For local car type
