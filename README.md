@@ -13,7 +13,7 @@ How to run this app
 
 <b>Your test cases :</b>
 
-1. This app still has no interface, please create interface ICarListingService for this app with abstract method GetCarListing
+1. This app still has no interface, please create interface <i>ICarListingService</i> for this app with abstract method <i>GetCarListing</i>
 
 2. Please give implementation to the abstract method of the interface. 
 The implementation is just to migrate existing method <i>CarListing (public ActionResult CarListing())</i> 
